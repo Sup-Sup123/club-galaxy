@@ -150,7 +150,7 @@ header nav li:last-child {
   position: relative;
   justify-content: center;
   min-height: 100vh;
-  color: #fff;
+  color: black;
   text-align: center;
 }
 
