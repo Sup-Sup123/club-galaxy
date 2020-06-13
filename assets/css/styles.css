@@ -49,7 +49,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 125px 100px;
+  padding: 500px 100px;
 }
 
 @media (max-width: 1000px) {
