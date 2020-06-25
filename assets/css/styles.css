@@ -363,24 +363,35 @@ margin: 0 auto;
 width:700px;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
+html {
+  background: lightgrey;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  height: 100%;
+  background: whitesmoke;
+  overflow: scroll;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3em;
+  font: 100%/1.4 serif;
+  border: 1px solid rgba(0,0,0,0.25)
+}
+p {
+  margin: 0 0 1.5em;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+body::-webkit-scrollbar {
+    width: 1em;
 }
  
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: blue; 
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
