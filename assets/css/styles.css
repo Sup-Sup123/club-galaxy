@@ -363,10 +363,7 @@ margin: 0 auto;
 width:700px;
 }
 
-/* For the "inset" look only */
-html {
-    overflow: auto;
-}
+
 body {
     position: absolute;
     top: 20px;
