@@ -364,16 +364,6 @@ width:700px;
 }
 
 
-body {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    bottom: 20px;
-    right: 20px;
-    padding: 30px; 
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
 
 /* Let's get this party started */
 ::-webkit-scrollbar {
