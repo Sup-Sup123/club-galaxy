@@ -426,7 +426,6 @@ width:700px;
 .flip-card-back {
   background-color: blue;
   color: white;
-  transform: rotateY(180deg);
 }
 
 /* Style the back side */
