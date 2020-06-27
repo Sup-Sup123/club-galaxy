@@ -424,7 +424,7 @@ width:700px;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: blue;
   color: white;
   transform: rotateY(180deg);
 }
