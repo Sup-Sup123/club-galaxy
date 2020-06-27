@@ -424,8 +424,8 @@ width:700px;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #bbb;
+  color: black;
 }
 
 /* Style the back side */
