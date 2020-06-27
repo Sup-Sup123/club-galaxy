@@ -44,12 +44,14 @@
   </p>
   <p>
     <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Owner</option>
-      <option value="follower">Staff</option>
+  <input type="checkbox" name="owner" value="owner">
+  <label for="vehicle1"> Owner</label><br>
+       <input type="checkbox" name="staff" value="staff">
+  <label for="vehicle1"> Staff</label><br>
     </select></label>
   </p>
    <p>
-    <label>Your Logo:   <div type="file" data-netlify-recaptcha="true"></div> </label>
+    <label>Your Logo:   <imput type="file"> </label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
