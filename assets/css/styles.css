@@ -20,7 +20,7 @@ ul, nav {
 
 a {
   text-decoration: none;
-  color: #FFFF33;
+  color: inherit;
   cursor: pointer;
   opacity: 0.9;
 }
